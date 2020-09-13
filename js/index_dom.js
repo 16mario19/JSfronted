@@ -11,6 +11,8 @@ import responsiveMedia from "./dom/objeto_responsive.js";
 import responsiveTester from "./dom/prueba_responsive.js";
 import userDeviceInfo from "./dom/deteccion_dispositivos.js";
 import networkStatus from "./dom/deteccion_red.js";
+import webcam from "./dom/deteccion_webcam.js";
+import getGeolocation from "./dom/geolocalizacion.js";
 
 //import relojDigital from "./dom/reloj-digital.js";
 
@@ -30,6 +32,8 @@ d.addEventListener("DOMContentLoaded",(e)=>{
 
     responsiveTester("responsive-tester");
     userDeviceInfo("user-device");
+    //webcam("webcam");
+    getGeolocation("geolocation");
     
 });
 
