@@ -16,6 +16,7 @@ import getGeolocation from "./dom/geolocalizacion.js";
 import searchFilters from "./dom/filtro_busquedas.js";
 import draw from "./dom/sorteo.js";
 import slider from "./dom/carrusel.js";
+import scrollSpy from "./dom/scroll_espia.js";
 
 //import relojDigital from "./dom/reloj-digital.js";
 
@@ -40,6 +41,7 @@ d.addEventListener("DOMContentLoaded",(e)=>{
     searchFilters(".card-filter",".card");
     draw("#winner-btn",".player");
     slider();
+    scrollSpy();
     
 });
 
