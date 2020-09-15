@@ -27,7 +27,7 @@ export default function getGeolocation(id){
 
     const error=(err)=>{
         $id.innerHTML=`<p><mark>Error ${err.code}: ${err.message}</mark></p>`;
-        console.log(`Error ${err.code}: ${err.message} `);
+        //console.log(`Error ${err.code}: ${err.message} `);
 
     };
 

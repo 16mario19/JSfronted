@@ -18,6 +18,8 @@ import draw from "./dom/sorteo.js";
 import slider from "./dom/carrusel.js";
 import scrollSpy from "./dom/scroll_espia.js";
 import smartVideo from "./dom/video_inteligente.js";
+import contactFormValidations from "./dom/validaciones_formulario.js";
+import speechReader from "./dom/narrador.js";
 
 //import relojDigital from "./dom/reloj-digital.js";
 
@@ -45,6 +47,7 @@ d.addEventListener("DOMContentLoaded",(e)=>{
     scrollSpy();
 
     smartVideo();
+    contactFormValidations();
     
 });
 
@@ -57,3 +60,5 @@ d.addEventListener("keydown",(e)=>{
 
 darkTheme(".dark-theme-btn","dark-mode");
 networkStatus();
+
+speechReader();
